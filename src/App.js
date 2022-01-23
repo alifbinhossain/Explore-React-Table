@@ -1,9 +1,9 @@
-import GlobalFilterTable from "./components/GlobalFilterTable";
+import PaginationTable from "./components/PaginationTable";
 
 function App() {
   return (
     <div className="App">
-      <GlobalFilterTable />
+      <PaginationTable />
     </div>
   );
 }
