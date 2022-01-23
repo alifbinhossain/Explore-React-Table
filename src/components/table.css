@@ -1,0 +1,32 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  padding: 25px 8px;
+}
+table tr {
+  background-color: #25252b;
+  color: rgb(151, 151, 151);
+  text-align: center;
+  transition-duration: 157ms;
+}
+table tr:not(:last-child) {
+  border-bottom: 2px solid #19191d;
+}
+
+table tr:hover {
+  background-color: #2e2e36;
+  color: #c9c9d1;
+}
+
+table th,
+tfoot td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #19191d;
+  color: white;
+}

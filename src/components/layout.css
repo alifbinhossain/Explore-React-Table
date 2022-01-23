@@ -1,0 +1,12 @@
+nav {
+  padding: 1rem;
+  background-image: linear-gradient(to right, #2e2e36, #19191d);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h4 {
+  color: white;
+  font-size: 2rem;
+}
